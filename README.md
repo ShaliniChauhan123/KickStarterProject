@@ -11,7 +11,9 @@ Implements pagination for navigating through pages of data.
 Allows dynamic rendering of table data and pagination buttons based on current page.
 
 
-Also added testcases for data table component and Pagination component.
+##Also added testcases for data table component and Pagination component.
+##For running testcases- use npm test command.
+
 
 # Getting Started with Create React App
 
