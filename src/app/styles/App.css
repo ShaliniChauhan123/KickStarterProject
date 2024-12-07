@@ -1,0 +1,101 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.project-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-table th,
+.project-table td {
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.project-table th {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: bold;
+}
+
+.project-table td {
+  background-color: #fff;
+}
+
+/* .pagination {
+  margin-top: 20px;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination button.active {
+  background-color: #3498db;
+  color: white;
+} */
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.pagination button {
+  margin: 0;
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  font-size: 14px;
+  flex: 1;
+  max-width: 50px;
+  text-align: center;
+}
+
+.pagination button:hover {
+  background-color: #ddd;
+}
+
+.pagination button.active {
+  background-color: #3498db;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .pagination {
+    justify-content: space-between;
+    gap: 3px;
+    padding: 5px;
+  }
+
+  .pagination button {
+    font-size: 12px;
+    padding: 5px 10px;
+    flex: 1;
+    max-width: 40px;
+  }
+}
