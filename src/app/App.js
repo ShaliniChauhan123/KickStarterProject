@@ -51,7 +51,7 @@ function App() {
     <div className="App">
       <h1>Kickstarter Project</h1>
       <DataTable projects={records} />
-      {records.length > 1 && (
+      {records.length > 0 && (
         <Pagination
           currentPage={currentPage}
           prePage={prePage}
