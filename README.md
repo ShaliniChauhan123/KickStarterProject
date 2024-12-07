@@ -1,3 +1,18 @@
+Data Table Pagination Project
+This is a simple React project that displays a table of projects with their funding details and includes pagination functionality. The table can handle displaying data, showing a "No data available" message when there are no projects, and allows users to navigate between pages of data.
+
+Features
+Displays a table with project details:
+S.No.
+Percentage Funded
+Amount Pledged
+Handles an empty state when no data is provided and displays a "No data available" message.
+Implements pagination for navigating through pages of data.
+Allows dynamic rendering of table data and pagination buttons based on current page.
+
+
+Also added testcases for data table component and Pagination component.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
